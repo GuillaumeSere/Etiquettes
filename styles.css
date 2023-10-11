@@ -28,7 +28,3 @@ body {
     padding: 0.25cm; 
     border: 2px solid rgb(0, 0, 0);/* Espace à l'intérieur de l'étiquette */
 }
-
-p{
-   position: absolute; 
-}
