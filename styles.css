@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+#label-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.label {
+    width: 7.8cm;
+    height: 2.3cm;
+    border: 1px solid #000;
+    margin: 0.25cm; /* Marge autour de chaque étiquette pour l'espacement */
+    text-align: center; /* Centre le contenu */
+    padding: 0.25cm; 
+    border: 2px solid black;/* Espace à l'intérieur de l'étiquette */
+}
