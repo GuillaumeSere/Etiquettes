@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -10,6 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
 }
 #label-container{
     width: 100%;
@@ -20,11 +23,28 @@ body {
     padding-top: 2rem;
 }
 
+h2{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: green;
+}
+
 .label {
+    position: relative;
     width: 7.8cm;
     height: 2.3cm;
     margin: 0.5cm; /* Marge autour de chaque étiquette pour l'espacement */
     text-align: center; /* Centre le contenu */
     padding: 0.25cm; 
     border: 2px solid rgb(0, 0, 0);/* Espace à l'intérieur de l'étiquette */
+    background-color: rgb(213, 213, 213);
+}
+
+img{
+    position: absolute;
+    top:15px;
+    left:10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
