@@ -11,7 +11,6 @@
         <!-- Étiquettes seront générées ici -->
     </div>
 
-    
     <script>
         // Fonction pour générer une étiquette
         function createLabel(content) {
@@ -21,18 +20,35 @@
             return label;
         }
 
-        // Boucle pour générer 120 étiquettes
-        const labelContainer = document.getElementById('label-container');
-        for (let i = 1; i <= 120; i++) {
-            const labelContent = `
-                <p>in the amy now</p>
-                <h2>TITRE Album</h2>
-                <p>herbertum</p>
-                <img src="./img1.jpg" />
-            `;
-            const label = createLabel(labelContent);
-            labelContainer.appendChild(label);
+        // Fonction pour charger les données depuis le fichier JSON
+        function loadData() {
+            const xhr = new XMLHttpRequest();
+            xhr.open('GET', 'data.json', true);
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    const jsonData = JSON.parse(xhr.responseText);
+                    generateLabels(jsonData); // Appel de la fonction pour générer les étiquettes
+                }
+            };
+            xhr.send();
         }
+
+        // Fonction pour générer les étiquettes à partir des données JSON
+        function generateLabels(data) {
+            const labelContainer = document.getElementById('label-container');
+            data.forEach(function(item) {
+                const labelContent = `
+                    <p class="face-a">${item.face_a}</p>
+                    <h2>${item.titre}</h2>
+                    <p class="face-b">${item.face_b}</p>
+                `;
+                const label = createLabel(labelContent);
+                labelContainer.appendChild(label);
+            });
+        }
+
+        // Chargez les données lorsque la page se charge
+        window.onload = loadData;
     </script>
 </body>
 </html>

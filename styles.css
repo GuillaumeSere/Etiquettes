@@ -27,6 +27,8 @@ h2{
     font-weight: 700;
     text-transform: uppercase;
     color: green;
+    font-size: 18px;
+    padding: 0.1rem;
 }
 
 .label {
@@ -35,16 +37,15 @@ h2{
     height: 2.3cm;
     margin: 0.5cm; /* Marge autour de chaque étiquette pour l'espacement */
     text-align: center; /* Centre le contenu */
-    padding: 0.25cm; 
+    padding: 0.2rem; 
     border: 2px solid rgb(0, 0, 0);/* Espace à l'intérieur de l'étiquette */
     background-color: rgb(213, 213, 213);
 }
 
-img{
-    position: absolute;
-    top:15px;
-    left:10px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+.face-a{
+    margin-bottom: 0.2rem;
+}
+
+.face-b{
+    margin-top: 0.2rem;
 }
