@@ -38,9 +38,9 @@
             const labelContainer = document.getElementById('label-container');
             data.forEach(function(item) {
                 const labelContent = `
-                    <p class="face-a">${item.face_a}</p>
+                   <p class="face-a"> <span class="face-A">Face A</span> ${item.face_a}</p>
                     <h2>${item.titre}</h2>
-                    <p class="face-b">${item.face_b}</p>
+                    <p class="face-b"><span class="face-B">Face B</span> ${item.face_b}</p>
                 `;
                 const label = createLabel(labelContent);
                 labelContainer.appendChild(label);
