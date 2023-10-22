@@ -11,44 +11,70 @@
         <!-- Étiquettes seront générées ici -->
     </div>
 
+    <div id="pagination-container">
+        <!-- Pagination sera générée ici -->
+    </div>
+
     <script>
-        // Fonction pour générer une étiquette
-        function createLabel(content) {
-            const label = document.createElement('div');
-            label.className = 'label';
-            label.innerHTML = content;
-            return label;
-        }
+        // Charger les données depuis le fichier JSON
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                const labelsData = data; // Utilisez les données du fichier JSON
 
-        // Fonction pour charger les données depuis le fichier JSON
-        function loadData() {
-            const xhr = new XMLHttpRequest();
-            xhr.open('GET', 'data.json', true);
-            xhr.onreadystatechange = function () {
-                if (xhr.readyState === 4 && xhr.status === 200) {
-                    const jsonData = JSON.parse(xhr.responseText);
-                    generateLabels(jsonData); // Appel de la fonction pour générer les étiquettes
+                // Fonction pour générer une étiquette
+                function createLabel(content) {
+                    const label = document.createElement('div');
+                    label.className = 'label';
+                    label.innerHTML = content;
+                    return label;
                 }
-            };
-            xhr.send();
-        }
 
-        // Fonction pour générer les étiquettes à partir des données JSON
-        function generateLabels(data) {
-            const labelContainer = document.getElementById('label-container');
-            data.forEach(function(item) {
-                const labelContent = `
-                   <p class="face-a"> <span class="face-A">Face A</span> ${item.face_a}</p>
-                    <h2>${item.titre}</h2>
-                    <p class="face-b"><span class="face-B">Face B</span> ${item.face_b}</p>
-                `;
-                const label = createLabel(labelContent);
-                labelContainer.appendChild(label);
+                // Fonnction pour générer les étiquettes sur une page spécifique
+                function generateLabelsOnPage(pageIndex) {
+                    const labelsPerPage = 14;
+                    const labelContainer = document.getElementById('label-container');
+                    labelContainer.innerHTML = ''; // Efface les étiquettes précédentes
+
+                    const start = pageIndex * labelsPerPage;
+                    const end = start + labelsPerPage;
+                    const pageLabels = labelsData.slice(start, end);
+
+                    pageLabels.forEach(function (data) {
+                        const labelContent = `
+                            <p class="face-a"><span class="face-A">Face A</span>${data.face_a}</p>
+                            <h2>${data.titre}</h2>
+                            <p class="face-b"><span class="face-B">Face B</span>${data.face_b}</p>
+                        `;
+                        const label = createLabel(labelContent);
+                        labelContainer.appendChild(label);
+                    });
+                }
+
+                // Fonction pour générer la pagination
+                function generatePagination() {
+                    const paginationContainer = document.getElementById('pagination-container');
+                    paginationContainer.innerHTML = '';
+
+                    const totalPages = Math.ceil(labelsData.length / 14); // 14 étiquettes par page
+                    for (let i = 0; i < totalPages; i++) {
+                        const pageLink = document.createElement('a');
+                        pageLink.textContent = i + 1;
+                        pageLink.href = '#';
+                        pageLink.addEventListener('click', function () {
+                            generateLabelsOnPage(i);
+                        });
+                        paginationContainer.appendChild(pageLink);
+                    }
+                }
+
+                // Chargez les données et générez la pagination lorsque la page se charge
+                window.onload = function () {
+                    generateLabelsOnPage(0); // Affiche la première page
+                    generatePagination();
+                };
             });
-        }
-
-        // Chargez les données lorsque la page se charge
-        window.onload = loadData;
     </script>
+
 </body>
 </html>

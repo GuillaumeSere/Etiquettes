@@ -71,3 +71,34 @@ h2{
     font-weight: 700;
     padding-left: 10px;
 }
+
+#pagination-container{
+   position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   bottom: 5rem;
+}
+
+#pagination-container a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin: 0.5rem;
+    color: black;
+    border: 1px solid black;
+    padding: 0.5rem;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-weight: 700;
+    background-color: rgb(195, 195, 195);
+}
+
+#pagination-container a:hover{
+    background: black;
+    color: white;
+}
