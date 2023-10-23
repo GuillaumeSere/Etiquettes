@@ -27,8 +27,9 @@ h2{
     font-weight: bold;
     text-transform: uppercase;
     color: green;
-    font-size: 18px;
+    font-size: 16px;
     padding: 0.1rem;
+    margin-top: 0.8rem;
 }
 
 .label {
@@ -37,9 +38,9 @@ h2{
     height: 2.3cm;
     margin: 0.5cm; /* Marge autour de chaque étiquette pour l'espacement */
     text-align: center; /* Centre le contenu */
-    padding: 0.2rem; 
+    padding: 0.1rem; 
     border: 2px solid rgb(0, 0, 0);/* Espace à l'intérieur de l'étiquette */
-    background-color: rgb(213, 213, 213);
+    background: rgb(213, 213, 213);
 }
 
 .face-A{
@@ -55,18 +56,19 @@ h2{
     font-size: 12px;
     position: absolute;
     left: 5px;
+    bottom: 0.2rem;
     font-weight: 700;
 }
 
 .face-a{
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.3rem;
     font-size: 12px;
     font-weight: 700;
     padding-left: 10px;
 }
 
 .face-b{
-    margin-top: 0.2rem;
+    margin-top: 0.8rem;
     font-size: 12px;
     font-weight: 700;
     padding-left: 10px;
