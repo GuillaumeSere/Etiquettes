@@ -1,159 +1,159 @@
 [
     {
         "id": 1,
-        "face_a": "Nuit de Folie",
-        "titre": "Début de soirée",
-        "face_b": "Tout Pour la Danse"
+        "face_a": "Lady Bump",
+        "titre": "Penny McLean",
+        "face_b": "The Lady Bumps On"
     },
     {
         "id": 2,
-        "face_a": "Oui, je l'adore",
-        "titre": "Pauline Ester",
-        "face_b": "Nuit grise"
+        "face_a": "I'm Sorry",
+        "titre": "Brenda Lee",
+        "face_b": "Dum Dum"
     },
     {
         "id": 3,
-        "face_a": "L'aventurier",
-        "titre": "Indochine",
-        "face_b": "Les 7 jours de Pekin"
+        "face_a": "Pop Muzik",
+        "titre": "Robin Scott",
+        "face_b": "The M Factor"
     },
     {
         "id": 4,
-        "face_a": "Retour au Front",
-        "titre": "Charge 69",
-        "face_b": "Les Bûcherons"
+        "face_a": "Showman",
+        "titre": "New Paradise",
+        "face_b": "In The Laser Beams"
     },
     {
         "id": 5,
-        "face_a": "Le Cerf",
-        "titre": "Le Cerf, Le Druide et le Loup",
-        "face_b": "Le Druide et Le Loup"
+        "face_a": "Will You Wont You",
+        "titre": "Jese Green",
+        "face_b": "Come With Me"
     },
     {
         "id": 6,
-        "face_a": "Suck It And See",
-        "titre": "Arctic Monkeys",
-        "face_b": "Evil Twin"
+        "face_a": "Locomotion",
+        "titre": "Ritz",
+        "face_b": "Lazy Love"
     },
     {
         "id": 7,
-        "face_a": "Sure Know Something",
-        "titre": "Kiss Dynasty",
-        "face_b": "Dirty Livin"
+        "face_a": "I Can't Stand The Rain",
+        "titre": "Eruption",
+        "face_b": "Be Yourself"
     },
     {
         "id": 8,
-        "face_a": "Fatalite",
-        "titre": "Trust",
-        "face_b": "Passe"
+        "face_a": "Seasons In the Sun",
+        "titre": "Terry Jacks",
+        "face_b": "Put The Bone In"
     },
     {
         "id": 9,
-        "face_a": "Un autre monde",
-        "titre": "Téléphone",
-        "face_b": "Le garçon d'ascenseur"
+        "face_a": "Flip",
+        "titre": "Jesse Green",
+        "face_b": "Highwaves Of The Sea"
     },
     {
         "id": 10,
-        "face_a": "Gambler",
-        "titre": "Madonna",
-        "face_b": "Nature of the beach"
+        "face_a": "America",
+        "titre": "David Essex",
+        "face_b": "Dance Little Girl"
     },
     {
         "id": 11,
-        "face_a": "Generation",
-        "titre": "Anarchic System",
-        "face_b": "Wish to know why"
+        "face_a": "Don't Drop My Love",
+        "titre": "Anita Ward",
+        "face_b": "Spoiled By Tour Love"
     },
     {
         "id": 12,
-        "face_a": "Sweet home chicago",
-        "titre": "The blues brothers",
-        "face_b": "Jailhouse rock"
+        "face_a": "Video Killed The Radio Star",
+        "titre": "The Buggles",
+        "face_b": "Kid Dynamo"
     },
     {
         "id": 13,
-        "face_a": "Total eclipse of the heart",
-        "titre": "Bonnie Tyler",
-        "face_b": "Take me back"
+        "face_a": "Ring My Bell",
+        "titre": "Anita Ward",
+        "face_b": "If I Could Feel That Old Feeling Again"
     },
     {
         "id": 14,
-        "face_a": "Another one bites the Dust",
-        "titre": "Queen",
-        "face_b": "Dragon Attack"
+        "face_a": "The Logical Song",
+        "titre": "Supertramp",
+        "face_b": "Just Another Nervous Wreeck"
     },
     {
         "id": 15,
-        "face_a": "Ghostbusters",
-        "titre": "Ray Parker Jr.",
-        "face_b": "Ghostbusters"
+        "face_a": "I Was Made For Lovin You",
+        "titre": "Kiss",
+        "face_b": "Hard Time"
     },
     {
         "id": 16,
-        "face_a": "Tread me Nice",
-        "titre": "Elvis Presley",
-        "face_b": "Jailhouse Rock"
+        "face_a": "Evidemment",
+        "titre": "France Gall",
+        "face_b": "La Chanson d'Azima"
     },
     {
         "id": 17,
-        "face_a": "Baby Jane",
-        "titre": "Rod Stewart",
-        "face_b": "Ready Now"
+        "face_a": "Sunny",
+        "titre": "Boney M",
+        "face_b": "New York City"
     },
     {
         "id": 18,
-        "face_a": "I'm Beggin You",
-        "titre": "Supertramp",
-        "face_b": "No Inbetween"
+        "face_a": "Adieu Minette",
+        "titre": "Renaud",
+        "face_b": "La Chanson Du Loubard"
     },
     {
         "id": 19,
-        "face_a": "Many Rivers To Cross",
-        "titre": "Jimmy Cliff",
-        "face_b": "The Harder They Come"
+        "face_a": "Too Shy",
+        "titre": "Kajagoogoo",
+        "face_b": "Too Shy Instrumental"
     },
     {
         "id": 20,
-        "face_a": "Try Jah Love",
-        "titre": "Third World",
-        "face_b": "Inna Time Like This"
+        "face_a": "It's Good To Be The King Rap Part 1",
+        "titre": "Mel Brooks",
+        "face_b": "It's Good To Be The King Rap Part 2"
     },
     {
         "id": 21,
-        "face_a": "Black in Black",
-        "titre": "AC/DC",
-        "face_b": "Big Gun"
+        "face_a": "Money Money Money",
+        "titre": "Abba",
+        "face_b": "Crazy World"
     },
     {
         "id": 22,
-        "face_a": "i An't Gonna Stand For It",
-        "titre": "Stevie Wonder",
-        "face_b": "Knocks Me of my Feet"
+        "face_a": "Macao",
+        "titre": "Le Grand Orchestre Du Solendid",
+        "face_b": "J'aime Les Bananes"
     },
     {
         "id": 23,
-        "face_a": "Survivor Eye Of the Tiger",
-        "titre": "Scotti Brothers",
-        "face_b": "Survivavor Take You On A Saturday"
+        "face_a": "Somebody Anglais",
+        "titre": "George Chakiris",
+        "face_b": "Somebody Français"
     },
     {
         "id": 24,
-        "face_a": "Le globe est à Moi",
-        "titre": "Parabellum",
-        "face_b": "Momo"
+        "face_a": "Oh Susie",
+        "titre": "Secret Service",
+        "face_b": "Give Me Your Love"
     },
     {
         "id": 25,
-        "face_a": "Beatit",
-        "titre": "Michael Jackson",
-        "face_b": "Get On The Floor"
+        "face_a": "Do You Wannna Touch Me ?",
+        "titre": "Gary Glitter",
+        "face_b": "I Would If I Could But I Can't"
     },
     {
         "id": 26,
-        "face_a": "Billie Jean",
-        "titre": "Michael Jackson",
-        "face_b": "It's The Falling In Love"
+        "face_a": "I'm The Leader Of The Gang",
+        "titre": "Gary Glitter",
+        "face_b": "Just Fancy That"
     },
     {
         "id": 27,
@@ -163,75 +163,75 @@
     },
     {
         "id": 28,
-        "face_a": "De Do Do Do, De DA DA Da",
-        "titre": "The Police",
-        "face_b": "A Sermon"
+        "face_a": "Nice And Slow Vocal",
+        "titre": "Jesse Green",
+        "face_b": "Nice And Slow Instrumental"
     },
     {
         "id": 29,
-        "face_a": "Don't Walk Away",
-        "titre": "Toni Childs",
-        "face_b": "Hush"
+        "face_a": "Back To Boogie",
+        "titre": "Aavalanche",
+        "face_b": "You Turn Me On"
     },
     {
         "id": 30,
-        "face_a": "L'empreur Tomato KetchupS",
-        "titre": "Bérurier Noir",
-        "face_b": "Pavillon 36"
+        "face_a": "Son On My Father",
+        "titre": "Chicory Tip",
+        "face_b": "Prides Come Before A Fall"
     },
     {
         "id": 31,
-        "face_a": "Play The Game",
-        "titre": "Queen",
-        "face_b": "A Human Body"
+        "face_a": "Hooray Hooray! It's A Holiday",
+        "titre": "Boney M",
+        "face_b": "Ribbons Of Blue"
     },
     {
         "id": 32,
-        "face_a": "Viens Chez Moi",
-        "titre": "Renaud",
-        "face_b": "P'tit De'j Blues"
+        "face_a": "Nobody But You",
+        "titre": "Ecstasy",
+        "face_b": "Love's Music"
     },
     {
         "id": 33,
-        "face_a": "Runnig Free",
-        "titre": "Iron Maiden",
-        "face_b": "Sanctuary"
+        "face_a": "You",
+        "titre": "Pierre Charby",
+        "face_b": "Une Fille Comme ça"
     },
     {
         "id": 34,
-        "face_a": "Belfast",
-        "titre": "Boney M",
-        "face_b": "Plantation Boy"
+        "face_a": "How Deep Is Your Love",
+        "titre": "Bee Gees",
+        "face_b": "Can't Keep A Good Man Down"
     },
     {
         "id": 35,
-        "face_a": "Black Treacle",
-        "titre": "Domino",
-        "face_b": "Richard Hawley & The Death Ramps"
+        "face_a": "Groove City",
+        "titre": "Wilson Pickett",
+        "face_b": "Love Of My Life"
     },
     {
         "id": 36,
-        "face_a": "Makhnovtchina",
-        "titre": "Haine Brigade",
-        "face_b": "Charlestown"
+        "face_a": "Lady Rose",
+        "titre": "Mungo Jerry",
+        "face_b": "Milk Cow Blues"
     },
     {
         "id": 37,
-        "face_a": "Daddy Cool",
-        "titre": "Boney M",
-        "face_b": "No Women No Cry"
+        "face_a": "48 Crash",
+        "titre": "Suzy Quatro",
+        "face_b": "Little Bitch Blue"
     },
     {
         "id": 38,
-        "face_a": "Every Little Thing She Does Is Magic",
-        "titre": "The Police",
-        "face_b": "Shambelle"
+        "face_a": "Dur Dur",
+        "titre": "Alex Et Les Lezrads",
+        "face_b": "Bonjour La Plage"
     },
     {
         "id": 39,
-        "face_a": "L'aventurier",
-        "titre": "Indochine",
-        "face_b": "Les 7 jours de Pekin"
+        "face_a": "Gimme! Gimme! Gimme!",
+        "titre": "Abba",
+        "face_b": "The King Has Lost His Crown"
     },
     {
         "id": 40,
